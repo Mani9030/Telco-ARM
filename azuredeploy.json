@@ -230,7 +230,6 @@
 						"type": "VirtualMachineScaleSets",
 						"orchestratorVersion": "[parameters('kubernetesVersion')]",
 						"osType": "Linux",
-						"mode": "System",
 						"linuxOSConfig": {
                             "sysctls": {
                                 "netCoreRmemMax": 134217728,
